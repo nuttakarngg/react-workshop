@@ -1,7 +1,7 @@
 export default function TextInput({ label, onChange, value }) {
   return (
     <div className="form-group my-2">
-      <p>{label}</p>
+      <span>{label}</span>
       <input
         type="text"
         value={value}
